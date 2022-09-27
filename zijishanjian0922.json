@@ -1,61 +1,8 @@
 {
-    "spider": "https://raw.githubusercontent.com/shyzhufeng/kankan/main/0922.jar",
-    "lives": [
-        {
-            "group": "redirect",
-            "channels": [
-                {
-                    "name": "live",
-                    "urls": [
-                        "proxy://do=live&type=txt&ext=aHR0cHM6Ly9vZC5say9zL05UQmZNak15TnpjME56WmYvbGl2ZTA5MjIudHh0"
-                    ]
-                }
-            ]
-        }
-    ],
-    
-    "sites": [
-        {
-            "key": "初中",
-            "name": "初中(爬虫)",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://gitcode.net/kuukey/b/-/raw/master/6/xx4.json"
-        },
-        {
-            "key": "t4public",
-            "name": "T4公共",
-            "type": 4,
-            "api": "https://t4.secan.icu/vod?sites=all&ali_token=c3aec23d5245417398d6770fff28babc&timeout=10",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0
-        },
-        {
-            "key": "T4",
-            "name": "🐞T4爬虫",
-            "type": 4,
-            "api": "http://192.168.10.1:6060/vod?sites=all&ali_token=c3aec23d5245417398d6770fff28babc&timeout=10",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0
-        },
-        {
-            "key": "AliPS",
-            "name": "📀盘搜",
-            "type": 3,
-            "api": "csp_AliPS",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "c3aec23d5245417398d6770fff28babc"
-        },
+    "sites": [ 
         {
             "key": "Gitcafe",
-            "name": "🔖小纸条",
+            "name": "小纸条(爬虫)",
             "type": 3,
             "api": "csp_Gitcafe",
             "searchable": 1,
@@ -64,18 +11,28 @@
             "ext": "c3aec23d5245417398d6770fff28babc"
         },
         {
-            "key": "FindZY",
-            "name": "📇找资源",
+            "key": "zhaozy",
+            "name": "找资源(仅搜索)",
             "type": 3,
-            "api": "csp_Zhaozy",
+            "api": "csp_FindZY",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
             "ext": "c3aec23d5245417398d6770fff28babc"
         },
         {
-            "key": "csp_Yiso",
-            "name": "🔍易搜",
+            "key": "AliPS",
+            "name": "盘搜(仅搜索)",
+            "type":3,
+            "api":"csp_AliPS",
+            "searchable":1,
+            "quickSearch":1,
+            "filterable":1,
+            "ext": "c3aec23d5245417398d6770fff28babc"
+        },
+        {
+            "key": "Yiso",
+            "name": "一搜(仅搜索)",
             "type": 3,
             "api": "csp_Yiso",
             "searchable": 1,
@@ -84,16 +41,84 @@
             "ext": "c3aec23d5245417398d6770fff28babc"
         },
         {
-            "key": "push_agent",
-            "name": "📨推送",
+            "key": "Upyunso",
+            "name": "Upyunso(仅搜索)",
             "type": 3,
-            "api": "csp_PushAgent",
-            "searchable": 0,
-            "quickSearch": 0,
+            "api": "csp_Upyunso",
+            "searchable": 1,
+            "quickSearch": 1,
             "filterable": 0,
             "ext": "c3aec23d5245417398d6770fff28babc"
         },
-        ],
+        {
+            "key": "推送",
+            "name": "推送",
+            "type":3,
+            "api":"csp_PushAgent",
+            "searchable":0,
+            "quickSearch":0,
+            "filterable":0,
+            "ext": "c3aec23d5245417398d6770fff28babc"
+        }
+        {
+            "key": "初中",
+            "name": "初中(爬虫)",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://dxawi.github.io/6/xx4.json"
+        },
+        
+    ],
+       "lives":[
+{"group":"redirect","channels":[
+    {"name":"live","urls":[
+        "proxy://do=live&type=txt&ext=aHR0cHM6Ly9vZC5say9zL05UQmZNak15TnpjME56WmYvbGl2ZTA5MjIudHh0"
+    ]}]}],
+     "parses": [
+    {"name":"解析聚合","type":3,"url":"Demo"},
+    {"name":"Json并发","type":2,"url":"Parallel"},
+    {"name":"Json轮询","type":2,"url":"Sequence"},
+    {"name": "keyu","type": 1,"url": "http://newjiexi.gotka.top/keyu3.php?url=","ext": {"flag": ["qq", "腾讯", "qiyi", "爱奇艺", "奇艺", "youku", "优酷", "mgtv", "芒果", "letv", "乐视", "pptv", "PPTV", "sohu", "bilibili", "哔哩哔哩", "哔哩"],"header": {"User-Agent": "okhttp/4.1.0"}}},
+    {"name": "GGTV自用",   "type": 1,   "url": "https://play.fuqizhishi.com/jx/API.php?appkey=xiaobaiiii&url="},  
+    {"name": "GGTV搜集",   "type": 1,   "url": "https://play.fuqizhishi.com/juhe/API.php?appkey=caijijuhe220902&url="},
+    {"name":"okjx",
+    "type":0,
+    "url":"https://okjx.cc/?url="}
+    ],
+    "flags":[
+"youku",
+"qq",
+"QQ",
+"iqiyi",
+"qiyi",
+"letv",
+"sohu",
+"tudou",
+"pptv",
+"PPTV",
+"mgtv",
+"ltnb",
+"rx",
+"CL4K",
+"xfyun",
+"wuduzy",
+"wasu",
+"bilibili",
+"renrenmi",
+"xmm",
+"xigua",
+"m1905",
+"funshion",
+"优酷",
+"芒果",
+"腾讯",
+"爱奇艺",
+"奇艺",
+"哔哩哔哩",
+"哔哩"],
     "ijk": [
         {
             "group": "软解码",
@@ -314,5 +339,7 @@
         "qiu.xixiqiu.com",
         "cdnjs.hnfenxun.com",
         "cms.qdwght.com"
-    ]
+    ],
+       "wallpaper": "https://picsum.photos/1280/720/?blur=10",
+       "spider":"https://raw.githubusercontent.com/shyzhufeng/kankan/main/0922.jar"
 }
