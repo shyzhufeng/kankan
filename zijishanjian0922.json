@@ -1,4 +1,3 @@
-// 配置地址 --> clan://localhost/TVBox/大整合.json
 {
     "spider": "https://raw.githubusercontent.com/shyzhufeng/kankan/main/0922.jar",
     "lives": [
