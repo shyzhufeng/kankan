@@ -1,11 +1,53 @@
 
 {
+    "rules": [
+        {
+            "host": "*",
+            "rule": [
+                "livehls.ltjuq.top",
+                "ofmatch"
+            ]
+        },
+        {
+            "host": "*",
+            "rule": [
+                "douyinvod.com",
+                "/video/tos/cn/"
+            ]
+        },
+        {
+            "host": "*",
+            "rule": [
+                "default.365yg.com",
+                "/video/tos/cn/"
+            ]
+        },
+        {
+            "host": "zjmiao.com",
+            "rule": [
+                "play.videomiao.vip/API.php",
+                "time=",
+                "key=",
+                "path="
+            ]
+        }
+    ],
+    
     "sites": [ 
         {
             "key": "77",
             "name": "77(爬虫)",
             "type": 3,
             "api": "csp_Kunyu77",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+         {
+            "key": "桉t4",
+            "name": "豆瓣榜单（桉T4）",
+            "type": 4,
+            "api": "https://t4.secan.icu/vod?sites=all&ali_token=3865f0ab8f124688ad786a262af9b940&timeout=6",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -153,7 +195,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "67d4bb9f539a4a40bcb08106140aa84f"
+            "ext": "97884067b6134aaaa69ef58634b6dcb0"
         },
         {
             "key": "zhaozy",
@@ -163,7 +205,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "67d4bb9f539a4a40bcb08106140aa84f"
+            "ext": "97884067b6134aaaa69ef58634b6dcb0"
         },
         {
             "key": "AliPS",
@@ -173,7 +215,7 @@
             "searchable":1,
             "quickSearch":1,
             "filterable":1,
-            "ext": "67d4bb9f539a4a40bcb08106140aa84f"
+            "ext": "97884067b6134aaaa69ef58634b6dcb0"
         },
         {
             "key": "Yiso",
@@ -183,7 +225,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "ext": "67d4bb9f539a4a40bcb08106140aa84f"
+            "ext": "97884067b6134aaaa69ef58634b6dcb0"
         },
         {
             "key": "Upyunso",
@@ -193,7 +235,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "ext": "67d4bb9f539a4a40bcb08106140aa84f"
+            "ext": "97884067b6134aaaa69ef58634b6dcb0"
         },
         {
             "key": "csp_xpath_dm84",
@@ -412,7 +454,7 @@
             "searchable":0,
             "quickSearch":0,
             "filterable":0,
-            "ext": "67d4bb9f539a4a40bcb08106140aa84f"
+            "ext": "97884067b6134aaaa69ef58634b6dcb0"
         }
     ],
        "lives":[
