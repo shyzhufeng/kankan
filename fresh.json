@@ -265,7 +265,7 @@
             "searchable":1,
             "quickSearch":1,
             "filterable":1,
-            "ext":"https://dxawi.github.io/6/xyqlyys.json","jar":"https://github.com/shyzhufeng/kankan/blob/main/XYQPlugin1010.jar"
+            "ext":"https://dxawi.github.io/6/xyqlyys.json"
         },
         {
             "key": "csp_XBPQ极品影视",
@@ -275,7 +275,7 @@
             "searchable":1,
             "quickSearch":1,
             "filterable":1,
-            "ext":"https://dxawi.github.io/6/xbpqjpys.json","jar":"https://github.com/shyzhufeng/kankan/blob/main/XYQPlugin1010.jar"
+            "ext":"https://dxawi.github.io/6/xbpqjpys.json"
         },
         {
             "key": "Voflix",
