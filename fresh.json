@@ -278,7 +278,8 @@
             "quickSearch":1,
             "filterable":0,
             "ext":"https://github.com/shyzhufeng/kankan/blob/main/wanneng.json",
-            "jar":"https://github.com/shyzhufeng/kankan/blob/main/XYQPlugin.jar"}, 
+            "jar":"https://github.com/shyzhufeng/kankan/blob/main/XYQPlugin.jar"
+        }, 
         {
             "key":"csp_XYQBiu_大米星球",
             "name":"大米星球(XYQ)",
@@ -480,11 +481,9 @@
     {"name":"Json并发","type":2,"url":"Parallel"},
     {"name":"Json轮询","type":2,"url":"Sequence"},
     {"name": "keyu","type": 1,"url": "http://newjiexi.gotka.top/keyu3.php?url=","ext": {"flag": ["qq", "腾讯", "qiyi", "爱奇艺", "奇艺", "youku", "优酷", "mgtv", "芒果", "letv", "乐视", "pptv", "PPTV", "sohu", "bilibili", "哔哩哔哩", "哔哩"],"header": {"User-Agent": "okhttp/4.1.0"}}},
-    {"name": "GGTV自用",   "type": 1,   "url": "https://play.fuqizhishi.com/jx/API.php?appkey=xiaobaiiii&url="},  
-    {"name": "GGTV搜集",   "type": 1,   "url": "https://play.fuqizhishi.com/juhe/API.php?appkey=caijijuhe220902&url="},
-    {"name":"okjx",
-    "type":0,
-    "url":"https://okjx.cc/?url="}
+    {"name": "GGTV自用","type": 1,   "url": "https://play.fuqizhishi.com/jx/API.php?appkey=xiaobaiiii&url="},  
+    {"name": "GGTV搜集","type": 1,   "url": "https://play.fuqizhishi.com/juhe/API.php?appkey=caijijuhe220902&url="},
+    {"name":"okjx","type":0,"url":"https://okjx.cc/?url="}
         ],
     "flags":[
 "youku",
@@ -739,5 +738,5 @@
         "cms.qdwght.com"
     ],
        "wallpaper": "https://picsum.photos/1280/720/?blur=10",
-       "spider":"https://github.com/shyzhufeng/kankan/blob/main/shenqi.jar",
+       "spider":"https://github.com/shyzhufeng/kankan/blob/main/shenqi.jar"
 }
