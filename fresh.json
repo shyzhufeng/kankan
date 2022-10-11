@@ -195,7 +195,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "97884067b6134aaaa69ef58634b6dcb0"
+            "ext": "8f0b3f0dc1834f309f077ea5549e99a8"
         },
         {
             "key": "zhaozy",
@@ -205,7 +205,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "97884067b6134aaaa69ef58634b6dcb0"
+            "ext": "8f0b3f0dc1834f309f077ea5549e99a8"
         },
         {
             "key": "AliPS",
@@ -215,7 +215,7 @@
             "searchable":1,
             "quickSearch":1,
             "filterable":1,
-            "ext": "97884067b6134aaaa69ef58634b6dcb0"
+            "ext": "8f0b3f0dc1834f309f077ea5549e99a8"
         },
         {
             "key": "Yiso",
@@ -225,7 +225,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "ext": "97884067b6134aaaa69ef58634b6dcb0"
+            "ext": "8f0b3f0dc1834f309f077ea5549e99a8"
         },
         {
             "key": "Upyunso",
@@ -235,7 +235,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "ext": "97884067b6134aaaa69ef58634b6dcb0"
+            "ext": "8f0b3f0dc1834f309f077ea5549e99a8"
         },
         {
             "key": "csp_xpath_dm84",
@@ -454,7 +454,7 @@
             "searchable":0,
             "quickSearch":0,
             "filterable":0,
-            "ext": "97884067b6134aaaa69ef58634b6dcb0"
+            "ext": "8f0b3f0dc1834f309f077ea5549e99a8"
         }
     ],
        "lives":[
