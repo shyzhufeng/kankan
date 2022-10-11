@@ -256,7 +256,7 @@
             "quickSearch":1,
             "filterable":1,
             "ext":"https://github.com/shyzhufeng/kankan/blob/main/农民影视.json",
-            "jar":"https://github.com/shyzhufeng/kankan/blob/main/XYQPlugin1010.jar"
+            "jar":"https://github.com/shyzhufeng/kankan/blob/main/XYQPlugin.jar"
         },
         {
             "key":"csp_XYQBiu_lingyun",
@@ -267,7 +267,7 @@
             "quickSearch":1, 
             "filterable":0,
             "ext":"https://github.com/shyzhufeng/kankan/blob/main/lingyun.json",
-            "jar":"https://github.com/shyzhufeng/kankan/blob/main/XYQPlugin1010.jar"
+            "jar":"https://github.com/shyzhufeng/kankan/blob/main/XYQPlugin.jar"
         }, 
         {
             "key":"csp_XYQBiu_wanneng",
@@ -278,7 +278,7 @@
             "quickSearch":1,
             "filterable":0,
             "ext":"https://github.com/shyzhufeng/kankan/blob/main/wanneng.json",
-            "jar":"https://github.com/shyzhufeng/kankan/blob/main/XYQPlugin1010.jar"}, 
+            "jar":"https://github.com/shyzhufeng/kankan/blob/main/XYQPlugin.jar"}, 
         {
             "key":"csp_XYQBiu_大米星球",
             "name":"大米星球(XYQ)",
@@ -288,7 +288,7 @@
             "quickSearch":1, 
             "filterable":1,
             "ext":"https://github.com/shyzhufeng/kankan/blob/main/大米星球.json",
-            "jar":"https://github.com/shyzhufeng/kankan/blob/main/XYQPlugin1010.jar"
+            "jar":"https://github.com/shyzhufeng/kankan/blob/main/XYQPlugin.jar"
         },
         {
             "key": "Voflix",
