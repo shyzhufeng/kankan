@@ -484,7 +484,8 @@
     {"name": "GGTV搜集",   "type": 1,   "url": "https://play.fuqizhishi.com/juhe/API.php?appkey=caijijuhe220902&url="},
     {"name":"okjx",
     "type":0,
-    "url":"https://okjx.cc/?url="}
+    "url":"https://okjx.cc/?url="},
+    {"name":"江湖","type":1,"url":"http://211.99.99.236:4567/jhjson/ceshi.php?url=","ext":{"flag":["qiyi","iqiyi","奇艺","爱奇艺","qq","腾讯","youku","优酷","pptv","PPTV","letv","乐视","bilibili","哔哩哔哩","哔哩","mgtv","芒果","xigua","西瓜","sohu","搜狐","cntv","cctv","央视","1905","m1905"]}}
     ],
     "flags":[
 "youku",
@@ -739,5 +740,5 @@
         "cms.qdwght.com"
     ],
        "wallpaper": "https://picsum.photos/1280/720/?blur=10",
-       "spider":"https://github.com/shyzhufeng/kankan/blob/main/1008.jar",
+       "spider":"https://github.com/shyzhufeng/kankan/blob/main/shenqi.jar",
 }
