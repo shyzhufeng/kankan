@@ -247,7 +247,7 @@
             "filterable":0,
             "ext":"https://dxawi.github.io/6/dm84.json"
         }, 
-        {
+       // {
             "key": "csp_XYQHiker_农民影视",
             "name":"农民影视(XYQH)",
             "type":3,
@@ -289,7 +289,7 @@
             "filterable":1,
             "ext":"https://github.com/shyzhufeng/kankan/blob/main/大米星球.json",
             "jar":"https://github.com/shyzhufeng/kankan/blob/main/XYQPlugin1010.jar"
-        },
+        },//
         {
             "key": "Voflix",
             "name": "Voflix(XB)",
@@ -485,7 +485,7 @@
     {"name":"okjx",
     "type":0,
     "url":"https://okjx.cc/?url="},
-    {"name":"江湖","type":1,"url":"http://211.99.99.236:4567/jhjson/ceshi.php?url=","ext":{"flag":["qiyi","iqiyi","奇艺","爱奇艺","qq","腾讯","youku","优酷","pptv","PPTV","letv","乐视","bilibili","哔哩哔哩","哔哩","mgtv","芒果","xigua","西瓜","sohu","搜狐","cntv","cctv","央视","1905","m1905"]}}
+    //{"name":"江湖","type":1,"url":"http://211.99.99.236:4567/jhjson/ceshi.php?url=","ext":{"flag":["qiyi","iqiyi","奇艺","爱奇艺","qq","腾讯","youku","优酷","pptv","PPTV","letv","乐视","bilibili","哔哩哔哩","哔哩","mgtv","芒果","xigua","西瓜","sohu","搜狐","cntv","cctv","央视","1905","m1905"]}}
     ],
     "flags":[
 "youku",
